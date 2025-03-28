@@ -35,7 +35,7 @@ def run(filename: str) -> None:
     plt.plot(clean_data)
     plt.xlabel("Time")
     plt.ylabel("Heart Rate")
-    plt.title("Phase 0")
+    plt.title("Phase")
     plt.savefig("images/plot.png")
     ...
 
